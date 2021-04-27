@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contactar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style=>
+                <div class="container">
+                    <a class="navbar-brand" href="#">Menú</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="salada.html">Tabla salada</a></li>
+                                    <li><a class="dropdown-item" href="dulce.html">Tabla dulce</a></li>
+                                    <li><a class="dropdown-item" href="mixta.html">Tabla mixta</a></li>
+                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">Quienes somos</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contacto
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="contactar.html">Contactar</a></li>
+                                    <li><a class="dropdown-item" href="suscribirse.html">Suscribirse</a></li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card w-100">
+            <div class="card-body">
+                <h1 id="centrar" class="card-title">Por qué te quieres contactar con nosotros?</h1>
+                <hr>
+                <p id="centrar">A través de este formulario puedes enviar el motivo por el cual quieres
+                    contactarte con nosotros, dejar una sugerencia o alguna queja.
+                    <p id="centrar">También encontraras nuestros datos de contacto.</p>
+                </p>
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <fieldset>
+                                <legend>Tus datos de contacto</legend>
+                                <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                                <p><label>Correo: <input type="text" name="correo"></label></p>
+                                <p>
+                                    <label>
+                                        Motivo:<br>
+                                        <textarea name="mensaje"></textarea>
+                                    </label>
+                                </p>
+                            </fieldset>
+                            <p>
+                                <input class="btn btn-primary" type="submit" value="Enviar">
+                                <input class="btn btn-primary" type="reset" value="Limpiar">
+                            </p>
+                            <p><a class="btn btn-primary" href="index.html" role="button">&laquo;Volver</a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <legend id="centrar">Nuestros datos de contacto</legend>
+                            <div>
+                                <ul style="list-style-type:none">
+                                    <li><img src="imagenes/facebook.png" id="Iconos">
+                                        www.facebook.com/El-Tablazo</li>
+                                    <li><img src="imagenes/instagram.png" id="Iconos">
+                                        www.instagram.com/El-Tablazo</li>
+                                    <li><img src="imagenes/twitter.png" id="Iconos">
+                                        www.twitter.com/El-Tablazo</li>
+                                    <li><img src="imagenes/gmail.png" id="Iconos"> eltablazo@gmail.com</p>
+                                    <li><img src="imagenes/whatsapp.png" id="Iconos">
+                                        https://chat.whatsapp.com/HrusjBubnnJHYUadB</li>
+                                    <li><img src="imagenes/telefono.png" id="Iconos"> Teléfono de contacto:
+                                        +56 9 8546 8924</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
